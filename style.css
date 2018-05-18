@@ -7,6 +7,13 @@ body{
 	background: url(metailler.jpg);
 	background-size: cover;
 	color: white;
+	position: relative;
+}
+
+form{
+	z-index: 100;
+	width: 1200px;
+	
 }
 
 h3{
@@ -25,10 +32,28 @@ p{
 	font-size: 20px;
 }
 
+#content{
+	height: 700px;
+}
+
 table{
 	margin-left: 100px;
+	z-index: 20;
 }
 
 a{
 	color: white !important;
 }
+
+.panel-cover--overlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	z-index: -10;
+}
+
+#particles-js {
+	height: 100%;	
+}
+
