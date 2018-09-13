@@ -1,0 +1,8 @@
+<?php
+
+function getAllFilms($param) {
+	// la requete
+	return $array;
+}
+
+?>
